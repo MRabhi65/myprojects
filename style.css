@@ -98,7 +98,7 @@ span i{
     margin-top: 10px;
     height: 100px;
     width: 120px;
-    background: url("logo2_new1.png") ;
+    background: url('images and logo/logo2_new1.png') ;
     background-size: cover;
 }
 
@@ -196,13 +196,13 @@ p a:hover{
 .sec-immg-a{
     height: 350px;
     width: 400px;
-    background-image: url('images-cm.webp');
+    background-image: url('images and logo/images-cm.webp');
     background-size: cover;
 }
 .sec-immg-b{
     height: 350px;
     width: 310px;
-    background-image: url('ho-min.jpg');
+    background-image: url('images and logo/ho-min.jpg');
     background-size: cover;
     
 }
@@ -294,7 +294,7 @@ footer{
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    background-image: url('Bihar_Government_Banner.png');
+    background-image: url('images and logo/Bihar_Government_Banner.png');
     background-size: cover;
     background-position: center;
     margin: 20px 0 0 40px;
