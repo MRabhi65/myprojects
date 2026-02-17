@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background: linear-gradient(90deg,  #aaa, #9ea7a7, #e4e4e4);
+}
+.container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.list-input{
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    padding: 20px;
+}
+.list-input input{
+    padding: 14px;
+    border: none;
+    outline: none;
+    margin-block: 12px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.list-input input[type="text"]{
+    width: 70%;
+}
+.list-input input[type="button"]{
+   background-color: #3da33d;
+   color: white;
+   font-weight: 700;
+   margin-left: 8px;
+   cursor: pointer;
+   padding: 12px 24px;
+}
+.list-input input[type="button"]:hover{
+    background-color: #60b160;
+}
+.un-oder{
+    width: 100%;
+    max-width: 450px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+.un-oder li{
+    list-style: none;
+    padding: 8px 16px;
+    margin: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 2px solid #668166;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.5s;
+}
+.un-oder li:hover{
+    background-color: #cbcaca;
+}
+
+.un-oder p{
+    flex-grow: 1;
+    padding: 2px;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 8px;
+}
+.deletbtn{
+    color: #f47373;
+}
+.editBtn{
+    color: #7ed57e;
+}
